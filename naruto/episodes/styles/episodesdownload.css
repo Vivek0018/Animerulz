@@ -1,0 +1,397 @@
+html,body{
+  padding:0;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0,0,0,0.7);
+}
+.headingdiv {
+    background-color: rgba(0,0,0,0.1);
+  }
+  .main{
+    width:850px;
+    background-image: url("naruto-series-animerulz-bg-3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-left: 10%;
+    margin-top: 0px;
+  }
+  .heading {
+    width: 350px;
+    height: 80px;
+    object-fit: fill;
+  }
+  h1{
+    margin-top: 0;
+    padding-top: 20px;
+    margin-left: 23%;
+    float:left;
+    font-size: 50px;
+    color:rgba(255,255,255);
+  }
+  .main-head-info{
+    padding-top: 35px;
+    font-size: 25px;
+    color:rgba(255,255,255,0.7);
+    margin:0;
+  }
+  .scroll{
+    padding-top: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left:25%;
+    padding:0px 0px 20px 20px;
+    background-color: #faa300;
+    color: rgba(0,0,0);
+    width:45%;
+    margin-top: 50px;
+  }
+  .scroll-to-continue{
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 0;
+  }
+  .scroll-gif{
+    padding-top: 10px;
+    height:30px;
+  }
+  #scroll-gif{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -15px;
+  }
+  .timer-getlink{
+    border-radius: 10px;
+    margin-left:35%;
+  }
+  .download{
+    font-weight: bold;
+  }
+  .getlink{
+    height:50px;
+    width:230px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color:  #faa300;
+  }
+  #getlink-2{
+    margin-left: -20px;
+  }
+  .getlink:hover{
+    cursor:pointer;
+  }
+  .get-link-2-text{
+    margin-left: 25px;
+  }
+  #countdown{
+    font-size:25px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: cyan;
+    width:35px;
+    margin-left: 10%;
+    padding: 5px 20px 5px 22px ;
+  }
+  #getlink-1,#getlink-2{
+    display: none;
+    padding: 5px 15px 5px 12px ;
+  }
+  #getlink-2{
+    width:300px;
+    font-size:20px;
+  }
+#countdown{
+  display: none;
+  margin-bottom: 10px;
+}
+#timeleftt{
+  display: none;
+  font-size:20px;
+  margin-left: 9%;
+  color:#faa300;
+  padding-top:20px;
+  padding-bottom: 5px;
+}
+.timer-getlink{
+  margin-top:350px;
+  padding-bottom: 500px;
+}
+.timer-get-link{
+  padding-bottom: 0px;
+}
+#time-remaining{
+  margin-left: 4%;
+}
+.download-image{
+  height:30px;
+  float:left;
+  padding-left: 30px;
+}
+#direct-download{
+  font-size: 22px;
+}
+.g-drive-image{
+  height:50px;
+  padding-right: 0;
+  padding-left: 10px;
+  float:left;
+  margin-top: -5px;
+  padding-top: 0;
+}
+#g-drive-download{
+  padding-top: 0px;
+  width:300px;
+}
+.g-drive-download-text{
+  float:left;
+  margin-top: 7px;
+}
+.g-drive-download-button{
+  width:300px;
+}
+#download-buttons{
+  padding-top: 50px;
+  margin-bottom: -30px;
+}
+.direct-download-g-drive,.direct-download,.mega-download{
+  margin:10px;
+  font-size: 25px;
+  background-color: #faa300;
+  border-radius: 30px;
+  height:50px;
+}
+.direct-download{
+  margin-top:0;
+  width:300px;
+  margin-left:270px;
+}
+.direct-download-g-drive{
+  width:330px;
+  margin-left: 260px;
+}
+.mega-download{
+  width:350px;
+  padding-top:5px;
+  margin-left:250px
+}
+.direct-download-g-drive:hover,.direct-download:hover,.mega-download:hover{
+  cursor:pointer;
+}
+.download-image-mega{
+  height:40px;
+  float:left;
+  position:absolute;
+  margin-left: -40px;
+  margin-top:-5px;
+} 
+.mega-drive-download-text{
+  margin-left: 20px;
+}
+@media only screen and (max-width:430px){
+  .heading {
+    width: 100%;
+  }
+  .scroll{
+    margin-left:5px;
+    margin-right: 5px;
+    padding: 0px 0px 10px 10px;
+  }
+  .scroll-to-continue{
+    font-size: 25px;
+    margin-left: 10%;
+  }
+  .scroll-gif{
+    height:30px;
+    width:25px;
+  }
+.getlink{
+  height: 50px;
+  width: 200px;
+}
+.timer-getlink{
+  margin-left: 25%;
+}
+#countdown{
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 55%;
+  padding-left: 23px;
+}
+#timeleftt{
+  margin-left:15% ;
+}
+.getlink{
+  font-size:18px;
+  border-radius: 15px;
+  background-color:  #f5bd1f;
+}
+}
+@media only screen and (max-width:300px){
+  .scroll-to-continue{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:285px){
+  .timer-getlink{
+    margin-left: 20%;
+  }
+  .getlink{
+    margin-left: 0%;
+  }
+  #timeleftt{
+    margin-left: 15%;
+  }
+  #countdown{
+    padding-left: 12px;
+    margin-left: 25%;
+    margin-right: 50%;
+  }
+}
+@media only screen and (max-width:989px){
+  .main{
+    width:100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width:890px){
+  .scroll{
+    width:360px;
+    padding-top: 10px;
+  }
+  .scroll-gif{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 5px;
+  }
+  .direct-download{
+    margin-left: 27%;
+  }
+  .direct-download-g-drive{
+    margin-left: 25%;
+  }
+  .mega-download{
+    margin-left: 24%;
+  }
+  .timer-getlink{
+    margin-left: 33%;
+  }
+}
+@media only screen and (max-width:670px){
+  #time-remaining{
+    margin-left:35px;
+  }
+}
+@media only screen and (max-width:600px){
+  h1{
+    margin-left: 10%;
+  }
+  .scroll{
+    margin-left: 15%;
+  }
+  .timer-getlink{
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width:550px){
+  .direct-download{
+    margin-left: 20%;
+  }
+  .direct-download-g-drive{
+    margin-left: 18%;
+  }
+  .mega-download{
+    margin-left: 17%;
+  }
+}
+@media only screen and (max-width:500px){
+  .main-head-info{
+    text-align: center;
+    padding-top: 120px;
+  }
+  h1{
+    padding-left: 23%;
+  }
+  .timer-getlink{
+    margin-left: 25%;
+  }
+  .scroll{
+    width: 350px;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width:430px){
+  .scroll{
+    width:310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .scroll-to-continue{
+    font-size: 22px;
+    margin-left: 0;
+  }
+  .heading{
+    width:100%;
+  }
+  .direct-download{
+    margin-left: 15%;
+  }
+  .direct-download-g-drive{
+    margin-left: 12%;
+  }
+  .mega-download{
+    margin-left: 11%;
+  }
+  .getlink{
+    background-color: #faa300;
+  }
+}
+@media only screen and (max-width:405px){
+  .direct-download{
+    margin-left: 12%;
+    padding:0;
+    width:290px;
+  }
+  .direct-download-g-drive{
+    margin-left: 10%;
+    padding:0;
+    width:310px;
+  }
+  .mega-download{
+    margin-left: 9%;
+    padding:0;
+    width:320px;
+  }
+  h1{
+    margin-left: 8%;
+  }
+}
+@media only screen and (max-width:360px){
+  .direct-download{
+    margin-left: 8%;
+  }
+  .direct-download-g-drive{
+    margin-left: 5%;
+  }
+  .mega-download{
+    margin-left: 4%;
+  }
+}
+@media only screen and (max-width:343px){
+  .direct-download{
+    margin-left: 5%;
+  }
+  .direct-download-g-drive{
+    margin-left: 3%;
+  }
+  .mega-download{
+    margin-left: 2%;
+  }
+  h1{
+    margin-left: 3%;
+  }
+  .timer-getlink{
+    margin-left: 20%;
+  }
+}

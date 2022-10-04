@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+      function count() {
+        var timeleft = 5;
+        var downloadTimer = setInterval(function () {
+          document.getElementById("getlink").style.display = "none";
+
+          if (timeleft >= 0) {
+            document.getElementById("getlink-1").style.display = "block";
+            document.getElementById("countdown").style.display = "block";
+            document.getElementById("timeleftt").style.display = "block";
+            document.getElementById("countdown").innerHTML =
+              "&nbsp;" + timeleft + " sec";
+          }
+          if (timeleft == 0) {
+            document.getElementById("getlink-2").style.display = "block";
+            document.getElementById("getlink-1").style.display = "none";
+            document.getElementById("download-buttons").style.display = "block";
+          }
+          timeleft -= 1;
+        }, 1000);
+      }
+      function download() {
+        open(
+          "https://crazyfilestolink.herokuapp.com/CrazyBotsz/private/12-09-2022/35574"
+        );
+      }
+      function download_from_gdrive(){
+        window.open("https://drive.google.com/uc?id=1V85GDDooDxQ-EH6AYcZj5TnV3a5BZbYA&export=download");
+      }
+      function download_from_mega(){
+        window.open("https://mega.nz/file/TpYCjLzS#n223WTqotnnpZ4Kw2zN2QVNpUlOvYBNzCKk1xQw6R_Q");
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naruto S-1 Ep-4 Download</title>
+    <link rel="stylesheet" href="styles/episodesdownload.css" />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.webp" />
+  </head>
+  <body>
+    <div class="headingdiv">
+      <img class="heading" src="images/Animerulzlogo.webp" alt="Loading" />
+    </div>
+    <div class="main">
+      <div>
+        <h1 class="heading-anime">Naruto</h1>
+        <span
+          ><p class="main-head-info"
+            >&nbsp;&nbsp;[Season-1]&nbsp;[Episode-4]</p
+        >
+      </div>
+      <div class="scroll">
+        <span class="scroll-to-continue">Scroll Down To Download</span>
+        <img class="scroll-gif" src="images/downarrow.webp" alt="" />
+      </div>
+      <div class="timer-getlink">
+        <div class="timer-get-link">
+          <div id="time-remaining">
+        <div id="timeleftt">Time Left:</div>
+        <div id="countdown"></div></div>
+        <div class="download">
+          <button class="getlink" id="getlink" onclick="count()">
+            Get Link
+          </button>
+        </div>
+        <div>
+          <button class="getlink" id="getlink-1">Getting Link..</button>
+        </div>
+        <div>
+          <button  class="getlink" id="getlink-2" >
+            <img class="scroll-gif" id="scroll-gif" src="images/downarrow.webp" alt="|"> 
+            <span class="get-link-2-text">Scroll Down to Download</span></button>
+        </div>
+      </div>
+    </div>
+      <div id="download-buttons" style="display:none"><hr>
+          <button onclick="download()" class="direct-download">
+            <img src="images/download-image.webp" class="download-image" alt="|">
+            Direct Download
+          </button><br><hr>
+        <button  class="direct-download-g-drive" onclick="download_from_gdrive()">
+          <img class="g-drive-image" src="images/google_drive_logo.webp" alt="G-Drive"> 
+          <span class="g-drive-download-text">G-Drive Download</span>
+        </button><br><hr>
+        <button onclick="download_from_mega()" class="mega-download">
+          <img src="images/mega-drive.webp" class="download-image-mega" alt="|">
+          <span class="mega-drive-download-text">Mega Drive Download</span>
+        </button><hr>
+      </div>
+    </div>
+  </body>
+</html>
