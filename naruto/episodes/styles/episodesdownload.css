@@ -109,6 +109,7 @@ html,body{
 #timeleftt{
   display: none;
   font-size:20px;
+  font-weight: bold;
   margin-left: 9%;
   color:#faa300;
   padding-top:20px;
@@ -322,6 +323,9 @@ html,body{
   }
 }
 @media only screen and (max-width:430px){
+  #time-remaining{
+    margin-left: 0;
+  }
   .scroll{
     width:310px;
     margin-left: auto;
@@ -343,8 +347,17 @@ html,body{
   .mega-download{
     margin-left: 11%;
   }
+  #getlink,#getlink-1{
+    margin-left: 5%;
+  }
   .getlink{
     background-color: #faa300;
+  }
+  .timer-getlink{
+    margin-left: 20%;
+  }
+  #timeleftt{
+    padding-left: 5px;
   }
 }
 @media only screen and (max-width:405px){
