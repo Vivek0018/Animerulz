@@ -11,6 +11,7 @@ best_on_anime_json_new.onload = function(){
     }
 }
 
+
 function updateBestOnAnime(x){
     let output_new_1 = "";
     let temp;
