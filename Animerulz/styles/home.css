@@ -1,0 +1,104 @@
+/* .main{
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.slider,.img-in-slide,.active-slide,.gradient-division-1,.gradient-division-2{
+  margin: 0;
+  padding:0;
+  max-width: 1500px;
+  scroll-behavior: smooth;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat',Arial;
+  -webkit-text-size-adjust: none;
+  width: 100%;
+}
+.nav-bar{
+  background-color: rgba(0,0,0,0.3);
+  display: block;
+  /* position: absolute; */
+  margin-top: 0px;
+  z-index: 2;
+  width: 96%;
+  display: none;
+}
+.slide-container{
+  position: absolute;
+  z-index: 1;
+  margin-top: -340px;
+}
+.bottom-container{
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width:1500px){
+  .bottom-container{
+    padding-top: 670px;
+  }
+}
+.bottom-container h2{
+  color: #faa300;
+}
+.container-in-trending{
+  display: flex;
+}
+.vertical-container h3{
+  /* rotate: -90deg; */
+  /* vertical-align: middle;*/
+  transform: rotate(-90deg);
+  color:rgba(255,255,255,0.6);
+  margin: 0;
+  /* justify-content: center;
+  text-align: center;
+  vertical-align:middle; */
+  /* margin-top: 100px; */
+  /* line-height: 10px; */
+  width: 200px;
+  margin-left: -80px;
+  margin-top: 130px;
+  font-size: 120%;
+  display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.vertical-container span{
+  background-color: #faa300;
+  /* padding: 5px 10px; */
+  /* width: 0px; */
+  padding: 0 10px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 6px;
+  /* position: absolute; */
+  margin-top: 250px;
+}
+.vertical-container{
+  width: 40px;
+  background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%);;
+  /* background:linear-gradient(0deg, rgba(0,0,0,0.2),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(255,255,255,0.4), rgba(255,255,255,0.7)); */
+}
+.animes-in-trending,.anime-in-container-most-viewed,.container-best-on-imdb{
+  display: flex;
+  overflow-x: scroll;
+}
+.animes-in-trending::-webkit-scrollbar,.anime-in-container-most-viewed::-webkit-scrollbar,.container-best-on-imdb::-webkit-scrollbar{
+  display: none;
+}
+.anime-in-trending{
+  min-width: 230px;
+  margin: 0 10px;
+}
+.anime-in-trending .image-container {
+  width: 400px;
+}
+.anime-in-trending .image-container img{
+  width: 200px;
+  height: 300px;
+}
+.anime-in-trending:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "anime_name" : "Attack On Titan",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/de/bf/debf027d032c6d40b91fab16b2ff9bd4/debf027d032c6d40b91fab16b2ff9bd4.jpg",
+        "onclick" : "https://Animerulz.xyz/AttackOnTitan/Season-1/"
+    },
+    {
+        "anime_name" : "Full Metal Alchemist",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/0d/2d/0d2d0a1d4276e7e2595702dc4cebbda9/0d2d0a1d4276e7e2595702dc4cebbda9.jpeg",
+        "onclick" : "https://animerulz.xyz/FullMetalAlchemist/"
+    },
+    {
+        "anime_name" : "Hunter X Hunter",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/99/3c/993c0361975cce4c7fbb11f8558f9664/993c0361975cce4c7fbb11f8558f9664.jpg",
+        "onclick" : "https://Animerulz.xyz/HunterXHunter/"
+    },
+    {
+        "anime_name" : "Steins;Gate",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/68/35/6835ff30fa46da5612e3adc81f51724e/6835ff30fa46da5612e3adc81f51724e.jpg",
+        "onclick" : "https://animerulz.xyz/SteinsGate"
+    },
+    {
+        "anime_name" : "One piece",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
+        "onclick" : "https://Animerulz.xyz/OnePiece/"
+    },
+    {
+        "anime_name" : "Death Note",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/5e/61/5e61f3e7c0045e46b670d31a5bb39c68/5e61f3e7c0045e46b670d31a5bb39c68.jpg",
+        "onclick" : "https://Animerulz.xyz/DeathNote/"
+    },
+    {
+        "anime_name" : "Cowboy Bebop",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/ce/5e/ce5e539af63e42431621fc66a47fbec1/ce5e539af63e42431621fc66a47fbec1.jpg",
+        "onclick" : "https://animerulz.xyz/CowboyBebop/"
+    },
+    {
+        "anime_name" : "Dragon Ball Z",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/2a/c3/2ac32c050b4dff7747fcc7f64c01edbd/2ac32c050b4dff7747fcc7f64c01edbd.jpg",
+        "onclick" : "https://animerulz.xyz/DragonBallZ/"
+    },
+    {
+        "anime_name" : "Vinland Saga",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/9c/c8/9cc864ccccce7f38f7a100627ef21516/9cc864ccccce7f38f7a100627ef21516.jpg",
+        "onclick" : "https://animerulz.xyz/VinlandSaga/Season-1/"
+    },
+    {
+        "anime_name" : "Berserk",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/9d/be/9dbe9a5ae53e4e3ab262ffed4b057670/9dbe9a5ae53e4e3ab262ffed4b057670.jpg",
+        "onclick" : "https://animerulz.xyz/Berserk/"
+    }
+]

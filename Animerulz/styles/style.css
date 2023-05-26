@@ -1,0 +1,1129 @@
+html,body{
+    margin: 0;
+    padding:0;
+    max-width: 1500px;
+    background-color:rgba(0,0,0,0.95);
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat',Arial;
+    -webkit-text-size-adjust: none;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+.preloader{
+  background: #000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  /* display: block; */
+}
+.preloader-img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45vh;
+  border-radius: 20px;
+  width:40px;
+  height: 40px;
+  background:white url("yin-and-yang-spinning.gif") center center;
+  background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin: 0em;
+    padding: 0;
+    border-width:0;
+    border-color:none;
+    border-image: none;
+    margin: 2px solid transparent;
+    font-family: 'Montserrat',Arial;
+}
+button:hover{
+    cursor: pointer;
+}
+.nav-image{
+    width:200px;
+    height: 55px;
+    padding: 10px;
+    float: left;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.search-icon{
+    margin-right: 15px;
+}
+.svg-search-icon{
+    width: 40px;
+    margin-top: 5px;
+}
+.follow{
+    display:flex;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.nav-bar .follow{
+    float: right;
+}
+.follow-anime-txt{
+    color: #faa300;
+    font-size: 14.5px;
+}
+.follow-us-txt{
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+}
+.svg-icons-follow{
+    /* height: 40px; */
+    margin-right: -5px;
+}
+.svg-icons-follow:hover{
+    cursor: pointer;
+}
+/* search section start */
+.icon{
+    width: 40px;
+    height: 45px;
+    background-color: white;
+    border:2px rgba(0,0,0,0.95) solid;
+    border-radius: 30px;
+    padding-left: 4px;
+    position: absolute;
+    /* margin-left: 95.5%; */
+    /* float: inline-end; */
+    /* display: none; */
+}
+.search-input input{
+    border: 2px rgba(0,0,0,0.95) solid;
+    border-radius: 30px;
+    padding:0px 10px 0px 10px;
+    outline: none;
+    font-family: 'Montserrat',Arial;
+    position: absolute;
+    height: 45px;
+    width: 94.7%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 0 0 5%;
+}
+/* .search-input input, .search-input .autocom-box{
+  width: 96.2vw;
+  padding-left: 20px;
+} */
+.svg-search-icon-1{
+    margin-top: 5px;
+    margin-left: 1.5px;
+    height: 35px;
+}
+.search-input .input-box{
+  width: 90%;
+}
+.search-input{
+    display: block;
+    margin-top: 80px;
+    display: none;
+    width:100%;
+    /* transition: all 2s; */
+}
+.search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+    background-color: rgba(255,255,255);
+    border-radius: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 98.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .search-input.active .autocom-box{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .search-input.active .autocom-box li{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+  .autocom-box li:hover{
+    background: #efefef;
+    cursor: pointer;
+  }
+@media only screen and (max-width:970px){
+  .search-input input{
+    padding-left: 6%;
+    width: 93.7%;
+  }
+}
+@media only screen and (max-width:800px){
+  .search-input input, .search-input .icon{
+    height: 40px;
+  }
+  .icon{
+    padding-left: 5px;
+    width: 35px;
+  }
+  .svg-search-icon-1{
+    height: 30px;
+    padding: 0;
+  }
+  .search-input .autocom-box{
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width:700px){
+  .search-input input {
+    padding-left: 7%;
+    width: 92.7%;
+  }
+}
+@media only screen and (max-width:600px){
+  .search-input input {
+    padding-left: 8%;
+    width: 91.7%;
+  }
+}
+@media only screen and (max-width:550px){
+  .search-input input {
+    padding-left: 9%;
+    width: 90.7%;
+  }
+}
+@media only screen and (max-width:450px){
+  .search-input input {
+    padding-left: 10%;
+    width: 89.7%;
+  }
+}
+/* search section end */
+.nav-bar{
+    background-color: rgba(0,0,0,0.2);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    max-width: 1500px;
+    transition: all 0.5s linear;
+    /* display: none; */
+}
+.second-nav{
+    background-image: url("kakashi-naruto.webp");
+    height: 250px;
+    background-position-x:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:550px){
+  .second-nav{
+    background-image: url("naruto-sasuke-bg.webp");
+    height: 250px;
+  }
+}
+.container-image-div{
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.image-in-container-image-div{
+    width:210px;
+    height: 330px;
+}
+.main-container{
+    background-image: url("naruto-series-animerulz-bg-3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.data-in-container{
+    padding:10px;
+    height: 290px;
+}
+h1{
+    font-size: 40px;
+    color: #faa300;
+    /* color: rgba(0,0,0,0.8); */
+    margin: 10px 0;
+    padding: 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.anchor-to-main a{
+    color: rgba(255,255,255,0.5);
+    margin-right: 20px;
+    display: inline;
+}
+.anchor-to-main a:hover{
+    color: #faa300;
+    text-decoration: underline;
+}
+#home-anchor-tag{
+    list-style: none;
+}
+.anchor-elements-in-ul{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top:10px;
+    border-radius: 0.25rem;
+}
+.active-page-tag span{
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  cursor:default;
+}
+.list-b-h,.list-b-h-1{
+    display: flex;
+    list-style: none;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    padding-inline-start: 15px;
+}
+.list-ele-b-h{
+    margin-right: 10px;
+    border: rgba(255,255,255,0.5) solid 1px;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+.list-ele-h-1{
+    list-style:disc;
+    margin-right: 20px;
+    padding:2px 0 ;
+}
+.text-data{
+    display: flex;
+}
+.button-watch-now,.button-read-manga{
+    height: 35px;
+    border-radius: 20px;
+    padding: 0 20px;
+    padding-bottom: 2px;
+}
+.play-svg,.svg-read-manga{
+    height: 20px;
+    width: 25px;
+    margin-bottom: -5px;
+}
+.button-watch-now{
+    background-color: #faa300;
+}
+.button-read-manga{
+    background-color: #43a047;
+}
+.btns-in-data{
+    margin:5px 20px;
+}
+.svg-icon-clk{
+    width: 13px;
+    margin-bottom: -2px;
+}
+.time-index{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+}
+.more-anime-info{
+    color: rgba(255,255,255,0.7);
+    padding-left: 5%;
+    display: flex;
+}
+.anime-description-more{
+    width: 68%;
+    font-size: 14px;
+}
+.description-text{
+    border-left: 3px solid #faa300;
+    padding-left: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.show-more-des:hover{
+    cursor:context-menu;
+}
+.show-more-des{
+    color:rgba(255,255,255,0.9);
+    font-size: 13px;
+    float: right;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+.anime-description-two{
+    width:25%;
+    margin-left:3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 0.7cm;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(255,255,255,0.7);
+}
+.anime-description-two hr{
+    border-color: rgba(255,255,255,0.5);
+    border-width: 0.5px;
+}
+.round-updated{
+    border: 1px rgba(255,255,255,0.5) solid;
+    border-radius: 10px;
+    padding: 1px 3px;
+}
+.anime-description-more-char{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.anime-characters-txt{
+    color:#faa300;
+    font-size: 17px;
+}
+.anime-char{
+    height: 90px;
+    width: 25%;
+    display: flex;
+    flex-grow: 1;
+}
+.anime-char-data{
+    padding: 10px;
+}
+.anime-char-img{
+    height: 80%;
+}
+.anime-char h4{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+.anime-char span{
+    margin-bottom: 0;
+    font-size: 90%;
+}
+/*for seasons-div start*/
+.more-seasons{
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+}
+.more-seasons-anime-container{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 20px 20px 10px 20px;
+  padding-bottom: 10px;
+}
+.more-seasons-anime-container::-webkit-scrollbar{
+  width:1px;
+  height: 1px;
+}
+.more-seasons-anime-container::-webkit-scrollbar-track{
+  background-color: none;
+  border-radius: 2px;
+}
+.more-seasons-anime-container::-webkit-scrollbar-thumb{
+  background-color: #faa300;
+  border-radius: 2px;
+}
+.more-seasons-anime-container .season-anime{
+  height: 50px;
+  width: 10%;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  margin: 5px 10px 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding:20px 10px;
+  background: url("naruto-series-animerulz-bg-3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.more-seasons-anime-container .season-anime .anime-seasons-ex{
+  font-size: 11px;
+}
+.more-seasons-anime-container .inactive-season:hover{
+  /* border-color: #faa300; */
+  cursor: pointer;
+  color: #faa300;
+  margin: 0 5px 0 5px;
+  height: 60px;
+  width: 11%;
+  transition: all 0.5s;
+}
+.more-seasons-anime-container #inactive-season:hover{
+  /* border-color: #faa300; */
+  cursor: pointer;
+  color: #faa300;
+  margin: 0 5px 0 5px;
+  height: 60px;
+  width: 11%;
+  transition: all 0.5s;
+}
+.more-seasons-anime-container .inactive-season:hover >  h3{
+  margin-top: 5px;
+  transition: margin-top 0.3s;
+}
+.more-seasons-anime-container #inactive-season:hover >  h3{
+  margin-top: 5px;
+  transition: margin-top 0.3s;
+}
+.season-anime h3{
+  margin: 0px;
+  font-size: 100%;
+}
+.season-anime span{
+  font-size: 90%;
+}
+.more-seasons-anime-container .active-season{
+  border-color: #faa300;
+  color: #faa300;
+}
+@media only screen and (max-width:1000px){
+  .more-seasons-anime-container .season-anime{
+    width: 13%;
+  }
+}
+@media only screen and (max-width:670px){
+  .more-seasons-anime-container .season-anime{
+    width: 200px;
+    min-width: 100px;
+    height: 40px;
+  }
+  .more-seasons-anime-container .inactive-season:hover{
+    height: 45px;
+    margin-top: 3px;
+  }
+  .more-seasons{
+    width: 98%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*for seasons-div end*/
+/*for share buttons division*/
+.addthis_inline_share_toolbox{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    float: left;
+  }
+  .share-text-new{
+    color:#faa300;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2cm;
+  }
+  .image-at-share{
+    float: left;
+    height:120px;
+    margin-top: -30px;
+  }
+  .share-text-new-2{
+    color:white;
+    font-size: 14px;
+  }
+  /*end share buttons*/
+  /*anime recommendations start*/
+  .recommendations{
+    /* display: none; */
+    margin-top:40px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0,0,0,0.7);
+  }
+ .more-anime-txt{
+    font-weight: 100;
+    color: #faa300;
+    font-size: 22px;
+    margin-left: 30px;
+  }
+  .anime-recom{
+    max-width: 1450px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x:scroll;
+    /* justify-content: space-evenly; */
+  }
+  .anime-recom::-webkit-scrollbar{
+    height:0px;
+  }
+  /* .anime-recom::-webkit-scrollbar-track{
+    background-color: none;
+    border-radius: 2px;
+  }
+  .anime-recom::-webkit-scrollbar-thumb{
+    background-color: #faa300;
+    border-radius: 2px;
+  } */
+  .anime-recom .anime-rec-div{
+    position: relative;
+    margin: 20px 10px 10px 10px;
+    width: 210px;
+    /* padding-bottom: 50px; */
+  }
+  @media only screen and (min-width:501px){
+    .anime-recom .anime-rec-div{
+      /* width: 100px; */
+      min-width: 200px;
+    }
+  }
+  /* .anime-4{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21175-EH06qlfF8TnB.jpg") ;
+  }
+  .anime-2{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png") ;
+  }
+  .anime-3{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-4dVWMSHLpGf8.png") ;
+  }
+  .anime-1{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg") ;
+  }
+  .anime-5{
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg") ;
+  } */
+  .anime-rec-div{
+    background-size: contain;
+  } 
+  .anime-rec-div h2{
+    color:rgba(255,255,255,0.8);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 150%;
+  }
+  @media only screen and (max-width:550px){
+    .anime-rec-div h2{
+      font-size: 20px;
+    }
+  }
+  .anime-rec-div .anime-rec-txt{
+    width: 100%;
+    background:linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+  }
+.anime-info-rec{
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+}
+.anime-info-rec span{
+    border-radius: 5px;
+}
+ .anime-info-rec .dub{
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(53, 53, 222, 0.911);
+    padding: 3px 5px 3px 5px;
+  }
+  .anime-info-rec .epi{
+    color: rgba(0,0,0,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3px 5px 3px 5px;
+    float: right;
+  }
+  .anime-rec-txt .anime-info-rec-2{
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    padding: 0 20px 0 20px;
+  }
+  .anime-info-rec-2 .epi{
+    float: right;
+  }
+  .anime-rec-play{
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color:rgba(0,0,0,0.5);
+    display: none;
+}
+.anime-rec-play .svg-play-anime{
+    width: 30%;
+    height: 25%;
+    margin-top: 40%;
+}
+.anime-rec-div:hover{
+    cursor: pointer;
+}
+.anime-rec-div:hover > .anime-rec-play{
+    display: block;
+}
+   /*anime recommendations end*/
+   /*bottom part start*/
+   .bottom{
+    background:linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url("uchiha_madara_1.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    background-position-x: right;
+    padding-top: 10px;
+    }
+    @media only screen and (max-width:430px){
+      .bottom{
+        background-image: url("madara-uchiha-mobile.webp");
+      }
+    }
+    .bottom-heading{
+      margin-top: 10px;
+    }
+    .bottom-heading-logo{
+      display: left;
+    }
+    .followheading{
+      display: block;
+    }
+    .btm-heading{
+      height:50px;
+      width:180px;
+      display: left;
+      margin-left: 10px;
+    }
+    .terms{
+      font-size: 25px;
+      color: rgba(255, 255, 255, 0.7);
+      margin:10px;
+    }
+    .terms-terms{
+      font-size: 20px;
+      padding:0;
+      margin: 0px 15px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    p.terms-des{
+      margin:0px 15px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.3);
+    }
+    @media only screen and (max-width:430px){
+      .terms{
+        color:rgba(255,255,255,0.8);
+      }
+      .terms-des{
+        color:rgba(255,255,255,0.5);
+        font-size: 13px;
+      }
+      .terms-terms{
+        color:rgba(255,255,255,0.7);
+      }
+    }
+    .bottom .follow{
+      margin-left: auto;
+      margin-right: auto;
+      display:flex;
+      width: 330px;
+    }
+    .bottom .follow-us-txt{
+      font-size: 13px;
+      color:rgba(255, 255, 255, 0.6);
+    }
+    .bottom .follow-anime-txt{
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .bottom .follow-icons{
+      margin-left: 10px;
+      padding:5px 0 5px 0;
+    }
+    .svg-icons-follow{
+      margin-top: 0px;
+      height: 40px;
+      width: 40px;
+    }
+    #fb-svg-icon{
+      margin-top: -10px;
+      margin-right: 2px;
+      height: 35px;
+      width: 35px;
+    }
+    .svg-fb-icon{
+      margin-top: -20px;
+    }
+    /* .bottom .svg-icons-follow:hover,#svg-fb-icon:hover{
+      cursor: pointer;
+      width: 43.5px;
+      height: 43.5px;
+      margin-top: -2.5px;
+      margin-left: 0;
+      margin-right: 0;
+    } */
+  /*Bottom part End*/
+/* Responsive Design Start */
+@media only screen and (max-width:1200px){
+  /* .anime-recom .anime-rec-div{
+    margin:0 10px;
+  } */
+}
+@media only screen and (max-width:1150px) {
+  h1{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width:1000px) {
+  .image-in-container-image-div{
+    width:190px;
+    height: 290px;
+  }
+  .container-image-div{
+    margin-left: 100px;
+    margin-top: -40px;
+}
+  h1{
+    font-size: 30px;
+  }
+  .list-b-h-1{
+    font-size: 12px;
+  }
+  .list-ele-b-h{
+    font-size: 11px;
+  }
+  .button-watch-now,.button-read-manga{
+    height: 30px;
+    font-size: 14px;
+  }
+  .play-svg,.svg-read-manga{
+    height: 17px;
+    width: 22px;
+    margin-bottom: -3px;
+}
+.time-index{
+  font-size: 12px;
+}
+.data-in-container{
+  height: 250px;
+}
+.anchor-for-back-page{
+  font-size: 12px;
+}
+.description-text{
+  font-size: 13px;
+}
+.anime-description-two{
+  font-size: 12px;
+}
+}
+@media only screen and (max-width:900px) and (min-width:551px){
+  .second-nav{
+    height: 200px;
+  }
+}
+@media only screen and (max-width:900px) {
+  h1{
+    font-size: 28px;
+  }
+  /* .text-data{
+    display: block;
+  } */
+  .container-image-div{
+    margin-left: 80px;
+}
+.list-b-h-1{
+  font-size: 11px;
+  padding-inline-start: 10px;
+}
+.list-ele-b-h{
+  font-size: 10px;
+}
+.time-index{
+  font-size: 10px;
+}
+.svg-icon-clk{
+  width: 10px;
+}
+.description-text{
+  font-size: 12px;
+}
+.anime-description-two{
+  font-size: 11px;
+}
+.video-l-details-data{
+  margin-top: 2px;
+}
+}
+@media only screen and (max-width:850px){
+  h1{
+    font-size: 25px;
+  }
+  .description-text{
+  font-size: 12px;
+}
+.anime-description-two{
+  font-size: 11px;
+}
+.anime-char h4{
+  font-size: 90%;
+}
+.anime-char span {
+  font-size: 80%;
+}
+}
+@media only screen and (max-width:700px){
+  #follow-top{
+    display: none;
+  }
+  .container-image-div{
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width:750px){
+  h1{
+    font-size: 23px;
+  }
+  .image-in-container-image-div{
+    height: 270px;
+    width: 160px
+  }
+  .list-b-h-1{
+    font-size: 10px;
+    padding-inline-start: 10px;
+  }
+  .list-ele-b-h{
+    font-size: 9px;
+  }
+  .time-index{
+    font-size: 9px;
+  }
+  .video-l-details-data{
+    margin-top: 3px;
+  }
+  .data-in-container{
+    height: 230px;
+  }
+  .description-text{
+    font-size: 11px;
+  }
+  .show-more-des{
+    font-size: 12px;
+}
+.anime-description-two span{
+  font-size: 11px;
+}
+.anime-description-two p{
+  font-size: 13px;
+  margin-left: -10px;
+}
+}
+@media only screen and (max-width:700px){
+  .container-image-div{
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width:660px){
+  .recommendations{
+    padding: 0;
+  }
+  .button-read-manga,.button-watch-now{
+    height: 32px;
+  }
+  .container{
+    /* display: block; */
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .anime-recom{
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .anime-recom .anime-rec-div{
+    width: 42%;
+    /* height: 200%; */
+  }
+  .container-image-div{
+    width: 100%;
+    margin: 0;
+    margin-top: -40px;
+  }
+  .image-in-container-image-div{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .anchor-for-back-page{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+  }
+  .anchor-elements-in-ul{
+    margin-left: 0;
+  }
+  .text-data{
+    width: 450px;
+    margin: auto;
+  }
+  .more-anime-info{
+    display: block;
+  }
+  .anime-description-more,.anime-description-two{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .more-anime-info{
+    padding-left: 0;
+  }
+  .main-container{
+    padding-bottom: 10px;
+  }
+  .nav-image{
+    width:190px;
+    height: 51px;
+    padding-top: 15px;
+}
+.nav-bar{
+  width: 100%;
+}
+.anime-char{
+  height: 90px;
+  width: 33%;
+  display: flex;
+  flex-grow: 1;
+}
+.more-anime-txt{
+  margin-left: 10px;
+}
+}
+@media only screen and (max-width:500px){
+  .recommendations{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .anime-recom .anime-rec-div{
+    min-width: none;
+    width: 45%;
+  }
+}
+@media only screen and (max-width:470px){
+  .text-data{
+    display:  block;
+    width: 100%;
+    text-align: center;
+    overflow-x: scroll;
+  }
+  .video-details-data{
+    width: 130px;
+    min-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video-l-details-data{
+    width: 320px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+  .list-b-h{
+    margin-bottom: 2px;
+  }
+  .nav-image{
+    width:180px;
+    height: 48px;
+}
+.anime-char-img{
+  height: 70%;
+}
+}
+@media only screen and (max-width:440px){
+  .search-input input{
+    padding-left: 11%;
+    width: 88.7%;
+  }
+}
+@media only screen and (max-width:400px){
+  .anime-char{
+    height: 90px;
+    width: 33%;
+    display: flex;
+    flex-grow: 1;
+    font-size: 10px;
+}
+.video-l-details-data{
+  width: 250px;
+}
+.hidden-item-in-list{
+  display: none;
+}
+h1{
+  -webkit-line-clamp: 3;
+}
+.data-in-container{
+  height: 250px;
+}
+.anime-recom .anime-rec-div{
+  width: 42%;
+  height: 300px;
+}
+.anime-rec-txt h2{
+  font-size: 15px;
+}
+.anime-info-rec,.anime-info-rec-2{
+  font-size: 11px;
+}
+}
+@media only screen and (max-width:390px){
+  .search-input input{
+    padding-left: 12%;
+    width: 87.7%;
+  }
+}
+@media only screen and (max-width:360px){
+  .search-input input{
+    padding-left: 13%;
+    width: 87.7%;
+  }
+}
+@media only screen and (max-width:350px){
+  .video-details-data{
+    margin-bottom: 10px;
+  }
+  .button-read-manga{
+    margin-top: 10px;
+  }
+  .data-in-container{
+    height: 270px;
+  }
+  .video-l-details-data{
+    display: none;
+  }
+}
+@media only screen and (max-width:330px){
+  .bottom .follow{
+    display: block;
+    width: 170px;
+  }
+  .bottom .follow-icons{
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width:290px){
+  .search-icon{
+    display: none;
+  }
+}
+@media only screen and (max-width:270px){
+  .video-l-details-data{
+    width: auto;
+  }
+}
+/* Responsive Design end */

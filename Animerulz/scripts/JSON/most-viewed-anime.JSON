@@ -1,0 +1,52 @@
+[
+    {
+        "anime_name" : "Naruto Shippuden",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg",
+        "onclick" : "https://Animerulz.xyz/NarutoShippuden/"
+    },
+    {
+        "anime_name" : "Attack On Titan",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/de/bf/debf027d032c6d40b91fab16b2ff9bd4/debf027d032c6d40b91fab16b2ff9bd4.jpg",
+        "onclick" : "https://Animerulz.xyz/AttackOnTitan/Season-1/"
+    },
+    {
+        "anime_name" : "Death Note",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/5e/61/5e61f3e7c0045e46b670d31a5bb39c68/5e61f3e7c0045e46b670d31a5bb39c68.jpg",
+        "onclick" : "https://Animerulz.xyz/DeathNote/"
+    },
+    {
+        "anime_name" : "One piece",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
+        "onclick" : "https://Animerulz.xyz/OnePiece/"
+    },
+    {
+        "anime_name" : "Bleach",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/bd/5a/bd5ae1d387a59c5abcf5e1a6a616728c/bd5ae1d387a59c5abcf5e1a6a616728c.jpg",
+        "onclick" : "https://Animerulz.xyz/Bleach/Bleach/"
+    }, 
+    {
+        "anime_name" : "Dragon Ball Super",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/69/08/6908f85a069414d40530042f2cdd8c8a/6908f85a069414d40530042f2cdd8c8a.jpg",
+        "onclick" : "https://Animerulz.xyz/DragonBallSuper/"
+    },
+    {
+        "anime_name" : "Jujutsu Kaisen",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/82/40/82402f796b7d84d7071ab1e03ff7747a/82402f796b7d84d7071ab1e03ff7747a.jpg",
+        "onclick" : "https://Animerulz.xyz/JujutsuKaisen/Season-1/"
+    },
+    {
+        "anime_name" : "Hunter X Hunter",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/99/3c/993c0361975cce4c7fbb11f8558f9664/993c0361975cce4c7fbb11f8558f9664.jpg",
+        "onclick" : "https://Animerulz.xyz/HunterXHunter/"
+    },
+    {
+        "anime_name" : "Black Clover",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/f5/8b/f58b0204c20ae3310f65ae7b8cb9987e/f58b0204c20ae3310f65ae7b8cb9987e.jpg",
+        "onclick" : "https://Animerulz.xyz/BlackClover/"
+    },
+    {
+        "anime_name" : "One Punch Man",
+        "anime_img" : "https://img.zorores.com/_r/300x400/100/f5/d1/f5d173f8317f592c6c70d594829b89e4/f5d173f8317f592c6c70d594829b89e4.jpg",
+        "onclick" : "https://Animerulz.xyz/OnePunchMan/Season-1/    "
+    }
+]
