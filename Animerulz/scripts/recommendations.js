@@ -1,6 +1,6 @@
 let http = new XMLHttpRequest();
 
-http.open("get", "/scripts/JSON/recommendations.json", true);
+http.open("get", "https://vivek0018.github.io/tester/Animerulz/scripts/JSON/recommendations.json", true);
 http.send();
 
 http.onload = function(){
