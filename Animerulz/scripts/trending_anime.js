@@ -1,6 +1,6 @@
 let trending_anime_json = new XMLHttpRequest();
 
-trending_anime_json.open("get", "/scripts/JSON/trending_anime.JSON", true);
+trending_anime_json.open("get", "https://github.com/Vivek0018/tester/edit/main/Animerulz/scripts/JSON/trending_anime.JSON", true);
 trending_anime_json.send();
 
 trending_anime_json.onload = function(){
