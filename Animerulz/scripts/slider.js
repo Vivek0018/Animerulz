@@ -1,6 +1,6 @@
 const slider = document.getElementsByClassName("slider")[0];
 var slider_json_file = new XMLHttpRequest();
-slider_json_file.open("get", "/scripts/JSON/slider-data.JSON", true);
+slider_json_file.open("get", "https://github.com/Vivek0018/tester/edit/main/Animerulz/scripts/JSON/slider-data.JSON", true);
 slider_json_file.send();
 let slide_count = 1;
 let number_of_anime_in_slider = 5;
