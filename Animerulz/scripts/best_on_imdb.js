@@ -1,6 +1,6 @@
 let best_on_anime_json_new = new XMLHttpRequest();
 
-best_on_anime_json_new.open("get", "https://github.com/Vivek0018/tester/edit/main/Animerulz/scripts/JSON/best_on_imdb.JSON", true);
+best_on_anime_json_new.open("get", "https://vivek0018.github.io/tester/Animerulz/scripts/JSON/best_on_imdb.JSON", true);
 best_on_anime_json_new.send();
 
 best_on_anime_json_new.onload = function(){
