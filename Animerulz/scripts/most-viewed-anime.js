@@ -1,6 +1,6 @@
 let most_viewed_anime_json_new = new XMLHttpRequest();
 
-most_viewed_anime_json_new.open("get", "https://github.com/Vivek0018/tester/edit/main/Animerulz/scripts/JSON/most-viewed-anime.JSON", true);
+most_viewed_anime_json_new.open("get", "https://vivek0018.github.io/tester/Animerulz/scripts/JSON/most-viewed-anime.JSON", true);
 most_viewed_anime_json_new.send();
 
 most_viewed_anime_json_new.onload = function(){
