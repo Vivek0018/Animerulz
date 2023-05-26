@@ -11,6 +11,7 @@ most_viewed_anime_json_new.onload = function(){
     }
 }
 
+
 function updateMostViewedAnime(x){
     let output_new = "";
     let temp;
