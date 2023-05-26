@@ -4,7 +4,7 @@
         "number_of_epi" : 1062,
         "anime_des" :  "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.",
         "updated_time" : "25/05/2023",
-        "slide_image" : "/images/OnePiece.webp",
+        "slide_image" : "https://vivek0018.github.io/tester/Animerulz/images/OnePiece.webp",
         "slide_onclick" : "http://127.0.0.1:5500/OnePiece/Watch-Now/",
         "slide_onclick_details" : "http://127.0.0.1:5500/OnePiece/"
     },
@@ -13,7 +13,7 @@
         "number_of_epi" : 8,
         "anime_des" :  "The Edo period is nearing its end. Gabimaru, a shinobi formerly known as the strongest in Iwagakure who is now a death row convict, is told that he will be acquitted and set free if he can bring back the Elixir of Life from an island that is rumored to be the Buddhist pure land Sukhavati. In hopes of reuniting with his beloved wife, Gabimaru heads to the island along with the executioner Yamada Asaemon Sagiri. Upon arriving there, they encounter other death row convicts in search of the Elixir of Life... as well as a host of unknown creatures, eerie manmade statues, and the hermits who rule the island. Can Gabimaru find the Elixir of Life on this mysterious island and make it back home alive?",
         "updated_time" : "25/05/2023",
-        "slide_image" : "/images/HellsParadise.webp",
+        "slide_image" : "https://vivek0018.github.io/tester/Animerulz/images/HellsParadise.webp",
         "slide_onclick" : "http://127.0.0.1:5500/HellsParadise/Watch-Now/",
         "slide_onclick_details" : "http://127.0.0.1:5500/HellsParadise/"
     },
@@ -22,7 +22,7 @@
         "number_of_epi" : 7,
         "anime_des" :  "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
         "updated_time" : "25/05/2023",
-        "slide_image" : "/images/DemonSlayer.webp",
+        "slide_image" : "https://vivek0018.github.io/tester/Animerulz/images/DemonSlayer.webp",
         "slide_onclick" : "http://127.0.0.1:5500/DemonSlayer/Watch-Now",
         "slide_onclick_details" : "http://127.0.0.1:5500/DemonSlayer"
     },
@@ -31,7 +31,7 @@
         "number_of_epi" : 110,
         "anime_des" :  "Naruto Uzumaki, a hyperactive and knuckle-headed ninja, lives in Konohagakure, the Hidden Leaf village. Moments prior to his birth, a huge demon known as the Kyuubi, the Nine-tailed Fox, attacked Konohagakure and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the 4th Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto.",
         "updated_time" : "25/05/2023",
-        "slide_image" : "/images/Naruto.webp",
+        "slide_image" : "https://vivek0018.github.io/tester/Animerulz/images/Naruto.webp",
         "slide_onclick" : "http://127.0.0.1:5500/Naruto/Watch-Now/?ep=1&aud=tel",
         "slide_onclick_details" : "http://127.0.0.1:5500/Naruto"
     },
