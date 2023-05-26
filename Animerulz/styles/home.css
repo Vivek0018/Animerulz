@@ -20,8 +20,8 @@
   /* position: absolute; */
   margin-top: 0px;
   z-index: 2;
-  width: 96%;
-/*   display: none; */
+  /* width: 96%; */
+  /* display: none; */
 }
 .slide-container{
   position: absolute;
@@ -29,7 +29,7 @@
   margin-top: -340px;
 }
 .bottom-container{
-  width: 96%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,13 +92,64 @@
   min-width: 230px;
   margin: 0 10px;
 }
-.anime-in-trending .image-container {
+/* .anime-in-trending .image-container {
   width: 400px;
-}
+} */
 .anime-in-trending .image-container img{
   width: 200px;
   height: 300px;
 }
 .anime-in-trending:hover{
   cursor: pointer;
+}
+.animes-in-trending,.container-best-on-imdb,.anime-in-container-most-viewed{
+  width: 98%;
+}
+
+
+@media only screen and (max-width:1000px){
+  .anime-in-trending{
+    min-width: 200px;
+  }
+  .vertical-container{
+    width: 35px;
+  }
+  /* .anime-in-trending .image-container{
+    width: 200px;
+  } */
+  .anime-in-trending .image-container img{
+    width: 170px;
+    height: 240px;
+  }
+  .vertical-container h3{
+    margin-top: 80px;
+    font-size: 110%;
+  }
+}
+@media only screen and (max-width:550px){
+  .anime-in-trending{
+  min-width: 170px;
+}
+.vertical-container{
+  width: 25px;
+}
+/* .anime-in-trending .image-container{
+  width: 200px;
+} */
+.anime-in-trending .image-container img{
+  width: 140px;
+  height: 220px;
+}
+.vertical-container h3{
+  margin-top: 70px;
+  margin-left: -90px;
+  font-size: 100%;
+}
+.vertical-container span{
+  font-size: 16px;
+  padding: 0 3px;
+}
+.anime-in-trending{
+  margin: 0 5px;
+}
 }
