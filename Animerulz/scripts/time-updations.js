@@ -1,6 +1,6 @@
 let http_1 = new XMLHttpRequest();
 
-http_1.open("get", "/scripts/JSON/updated-time.json", true);
+http_1.open("get", "https://vivek0018.github.io/tester/Animerulz/scripts/JSON/updated-time.json", true);
 http_1.send();
 
 http_1.onload = function(){
