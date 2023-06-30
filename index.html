@@ -415,15 +415,32 @@ to {
           <div class="autocom-box"></div>
         </div>
     </nav>
+    <div class="slider-dots">
+      <div class="slide-dot active-slide-dot" id="dot-1" onclick="changeSlideByDot(1)"></div>
+      <div class="slide-dot" id="dot-2" onclick="changeSlideByDot(2)"></div>
+      <div class="slide-dot" id="dot-3" onclick="changeSlideByDot(3)"></div>
+      <div class="slide-dot" id="dot-4" onclick="changeSlideByDot(4)"></div>
+      <div class="slide-dot" id="dot-5" onclick="changeSlideByDot(5)"></div>
+      <div class="slide-dot" id="dot-5" onclick="changeSlideByDot(6)"></div>
+  </div>
+  <div class="slide-change-btns">
+      <div class="btn btn-1" onclick="changeSlideByBtn(1)">
+          <svg class="svg-icon-change-slide prev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" id="left-arrow"><path d="m8.5 12.8 5.7 5.6c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-4.9-5 4.9-5c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3-.3 0-.5.1-.7.3l-5.7 5.6c-.4.5-.4 1.1 0 1.6 0-.1 0-.1 0 0z"></path></svg>        
+      </div>
+      <div class="btn btn-2" onclick="changeSlideByBtn(2)">
+          <svg class="svg-icon-change-slide nxt-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" id="left-arrow"><path d="m8.5 12.8 5.7 5.6c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-4.9-5 4.9-5c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3-.3 0-.5.1-.7.3l-5.7 5.6c-.4.5-.4 1.1 0 1.6 0-.1 0-.1 0 0z"></path></svg>
+      </div>
+  </div>
     <div class="slider">
       <div class="slide active-slide" id="slide-1">
-        <img src="https://vivek0018.github.io/Files.Animerulz/images/BlackClover.webp" class="img-in-slide" alt="One Piece"/>
+        <!-- <img src="" class="img-in-slide" alt="One Piece"/> -->
         <div class="slide-container">
            <span class="slide-spotlight-txt small-text-on-slider">#1 Spotlight</span>
            <h2>Black Clover Sword of the Wizard King</h2>
            <div class="slide-more-info">
               <ul class="small-text-on-slider">
                  <li class="slide-list-ele">Movie</li>
+                 <li class="slide-list-ele">Hindi Dub Available</li>
                  <li class="slide-list-ele">110min</li>
               </ul>
            </div>
@@ -457,7 +474,6 @@ to {
         </div>
      </div>
      <div class="slide" id="slide-2">
-      <img src="https://vivek0018.github.io/Files.Animerulz/images/OnePiece.webp" class="img-in-slide" alt="One Piece"/>
       <div class="slide-container">
          <span class="slide-spotlight-txt small-text-on-slider">#2 Spotlight</span>
          <h2>One Piece</h2>
@@ -497,7 +513,6 @@ to {
       </div>
    </div>
      <div class="slide" id="slide-3">
-        <img src="https://vivek0018.github.io/Files.Animerulz/images/HellsParadise.webp" class="img-in-slide" alt="Hells paradise"/>
         <div class="slide-container">
            <span class="slide-spotlight-txt small-text-on-slider">#3 Spotlight</span>
            <h2>Hells paradise</h2>
@@ -537,7 +552,6 @@ to {
         </div>
      </div>
      <div class="slide" id="slide-4">
-        <img src="https://vivek0018.github.io/Files.Animerulz/images/DemonSlayer.webp" class="img-in-slide" alt="Demon Slayer Swordsmith Village"/>
         <div class="slide-container">
            <span class="slide-spotlight-txt small-text-on-slider">#4 Spotlight</span>
            <h2>Demon Slayer Swordsmith Village</h2>
@@ -577,7 +591,6 @@ to {
         </div>
      </div>
      <div class="slide" id="slide-5">
-        <img src="https://vivek0018.github.io/Files.Animerulz/images/Naruto.webp" class="img-in-slide" alt="Naruto"/>
         <div class="slide-container">
            <span class="slide-spotlight-txt small-text-on-slider">#5 Spotlight</span>
            <h2>Naruto</h2>
@@ -617,7 +630,6 @@ to {
         </div>
      </div>
      <div class="slide" id="slide-6">
-        <img src="https://vivek0018.github.io/Files.Animerulz/images/DrStoneNewWorld.webp" class="img-in-slide" alt="Dr Stone New World"/>
         <div class="slide-container">
            <span class="slide-spotlight-txt small-text-on-slider">#6 Spotlight</span>
            <h2>Dr Stone New World</h2>
@@ -657,24 +669,9 @@ to {
         </div>
      </div>
     </div>
-    <div class="gradient-division-1" style="max-height: 666px;"></div>
-    <div class="gradient-division-2" style="max-height: 666px;"></div>
-    <div class="slider-dots">
-        <div class="slide-dot active-slide-dot" id="dot-1" onclick="changeSlideByDot(1)"></div>
-        <div class="slide-dot" id="dot-2" onclick="changeSlideByDot(2)"></div>
-        <div class="slide-dot" id="dot-3" onclick="changeSlideByDot(3)"></div>
-        <div class="slide-dot" id="dot-4" onclick="changeSlideByDot(4)"></div>
-        <div class="slide-dot" id="dot-5" onclick="changeSlideByDot(5)"></div>
-        <div class="slide-dot" id="dot-5" onclick="changeSlideByDot(6)"></div>
-    </div>
-    <div class="slide-change-btns">
-        <div class="btn btn-1" onclick="changeSlideByBtn(1)">
-            <svg class="svg-icon-change-slide prev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" id="left-arrow"><path d="m8.5 12.8 5.7 5.6c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-4.9-5 4.9-5c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3-.3 0-.5.1-.7.3l-5.7 5.6c-.4.5-.4 1.1 0 1.6 0-.1 0-.1 0 0z"></path></svg>        
-        </div>
-        <div class="btn btn-2" onclick="changeSlideByBtn(2)">
-            <svg class="svg-icon-change-slide nxt-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" id="left-arrow"><path d="m8.5 12.8 5.7 5.6c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-4.9-5 4.9-5c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3-.3 0-.5.1-.7.3l-5.7 5.6c-.4.5-.4 1.1 0 1.6 0-.1 0-.1 0 0z"></path></svg>
-        </div>
-    </div>
+    <!-- <div class="gradient-division-1" style="max-height: 666px;"></div>
+    <div class="gradient-division-2" style="max-height: 666px;"></div> -->
+    
     <div class="bottom-container">
       <div class="home-main-info">
          <svg class="svg-icon-on-slide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" id="left-arrow">
@@ -1026,10 +1023,10 @@ to {
           </p>
     </div>
     </div>
-    <link rel="stylesheet" href="https://vivek0018.github.io/Files.Animerulz/styles/home.css">
+    <link rel="stylesheet" href="/styles/home.css">
     <!-- <link rel="stylesheet" href="/styles/slider.css"> -->
     <link rel="stylesheet" href="https://vivek0018.github.io/Files.Animerulz/styles/style.css">
-    <script src="https://vivek0018.github.io/Files.Animerulz/scripts/slider.js"></script>
+    <script src="/scripts/slider.js"></script>
     <!-- <script src="script.js"></script> -->
     <script src="https://vivek0018.github.io/Files.Animerulz/scripts/script.js"></script>
     <script src="https://vivek0018.github.io/Files.Animerulz/scripts/suggestions.js"></script>
