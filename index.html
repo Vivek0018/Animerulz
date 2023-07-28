@@ -31,8 +31,9 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=64b36d739f35fb0012149533&product=inline-share-buttons&source=platform" async="async"></script>
-    
-    
+    <style>
+      
+    </style>
 <script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -64,7 +65,7 @@
           display: none;
        }
         .new-preloader{
-          width: 100%;
+          width: 100vw;
           height: 100vh;
           background-color: black;
           position: fixed;
@@ -87,7 +88,8 @@
     /* position: absolute; */
     width: 10px;
     /* margin: -100px; */
-    margin-left: 700px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 300px;
     width: 70px;
     height: 70px;
@@ -372,6 +374,99 @@
      animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
     }
     }
+    .slide-container .details-btn .svg-icon-on-slide{
+       height: 20px;
+      rotate: 180deg;
+      position:absolute;
+      fill: black;
+      margin-top: 1.5px;
+      }
+      .slide-container .svg-icon-clk-on-slider{
+         position: absolute;
+         height: 15px;
+         margin-left: -20px;
+         margin-top: 2px;
+      }
+      .slide-container .details-btn .svg-icon-on-slide{
+         height: 16px;
+         margin-top: 5px;
+      }
+   .svg-close-menu{
+      height: 17px;
+      position: absolute;
+      margin-left: 15px;
+      margin-top: 3px;
+   }
+   .more-menu{
+  /* display: none; */
+  margin-left: -100vw;
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  max-width: 1500px;
+  transition: margin 0.5s;
+  z-index: 4;
+  display: flex;
+  grid-column: 1;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  overflow: hidden;
+  /* opacity: 0; */
+
+}
+.bars{
+  position: absolute;
+  padding: 25px 20px;
+  display: none;
+}
+.nav-image{
+    width:190px;
+    height: 51px;
+    padding-top: 15px;
+}
+.svg-search-icon{
+    width: 40px;
+    margin-top: 5px;
+}
+.svg-icons-follow{
+      margin-top: 0px;
+      height: 40px;
+      width: 40px;
+    }
+    .nav-bar{
+      display: flex;
+      width: 100vw;
+    }
+    .search-input{
+      display: none;
+    }
+    .play-svg,.svg-read-manga{
+    height: 17px;
+    width: 22px;
+    margin-bottom: -3px;
+}
+.slider{
+  /* z-index: 2; */
+  /* position: absolute; */
+  width: 100vw;
+  max-width: 1500px;
+  max-height: 650px;
+  height: calc(100vw / 2.25);
+  /* display: none; */
+}
+.anime-in-trending .image-container img{
+  width: 200px;
+  height: 300px;
+}
+.image-at-share{
+    float: left;
+    height:120px;
+    margin-top: -30px;
+  }
      </style>
       <script>
        setTimeout(newPreloader,2000);
@@ -555,12 +650,12 @@
                    <ul class="small-text-on-slider">
                       <li class="slide-list-ele">T.V Series</li>
                       <li class="slide-list-ele">24min</li>
-                      <li class="slide-list-ele">Episodes-3</li>
+                      <li class="slide-list-ele">Episodes-4</li>
                    </ul>
                 </div>
                 <div class="slide-anime-des"><span>The <strong>past</strong> comes to light when second-year students Satoru Gojou and Suguru Getou are tasked with escorting young Riko Amanai to Master Tengen. But when a non-sorcerer user tries to kill them, their mission to protect the <strong>Star Plasma Vessel</strong> threatens to turn them into bitter enemies and cement their destinies—one as the world’s <em>strongest sorcerer</em>, and the other its most twisted curse user!</span></div>
                 <div class="slide-btns">
-                   <a role="button" rel="next" title="Watch OnePiece" class="slide-btn watch-now-btn" href="/JujutsuKaisenSeason2/Watch-Now/?ep=2&aud=jap">
+                   <a role="button" rel="next" title="Watch OnePiece" class="slide-btn watch-now-btn" href="/JujutsuKaisenSeason2/Watch-Now/?ep=4&aud=jap">
                       <svg xmlns="http://www.w3.org/2000/svg" class="play-svg" enable-background="new 0 0 100 100" viewBox="0 0 100 100">
                          <switch>
                             <g>
@@ -582,7 +677,7 @@
                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-clk-on-slider" fill="rgba(255,255,255,0.7)" viewBox="0 0 512 512">
                       <path d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
                    </svg>
-                   <span class="small-text-on-slider">Updated on 20/07/2023</span>
+                   <span class="small-text-on-slider">Updated on 28/07/2023</span>
                 </div>
              </div>
             </div>
