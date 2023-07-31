@@ -486,7 +486,9 @@
       </style>
          <script>
          setTimeout(newPreloader,5000);
-         window.addEventListener("load", newPreloader());
+         window.addEventListener("load", function(){
+            setTimeout(newPreloader, 1000);
+         });
          function newPreloader(){
             document.getElementsByClassName("new-preloader")[0].style.display = "none";
          }
