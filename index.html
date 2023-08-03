@@ -486,9 +486,7 @@
       </style>
          <script>
          setTimeout(newPreloader,5000);
-         window.addEventListener("load", function(){
-            setTimeout(newPreloader, 1000);
-         });
+         window.addEventListener("load", newPreloader());
          function newPreloader(){
             document.getElementsByClassName("new-preloader")[0].style.display = "none";
          }
@@ -613,7 +611,7 @@
          <div class="bars" onclick="show_menu()">
             <svg xmlns="http://www.w3.org/2000/svg" class="svg-bar-icon" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
             </div>
-         <img src="https://vivek0018.github.io/Files.Animerulz/images/Animerulzlogo.webp" class="nav-image" alt="Animerulz">  
+         <img src="/images/AnimerulzNew2.png" class="nav-image" alt="Animerulz">  
          <div class="follow">
                <div class="search-icon" id="search-icon" onclick="show_search_box()">
                <?xml version="1.0" encoding="utf-8"?>
@@ -1314,6 +1312,9 @@
          </div>
          <div class="bottom" id="bottom">
          <div class="bottom-heading">
+            <div class="followheading">
+               <img class="btm-heading" src="https://vivek0018.github.io/Files.Animerulz/images/Animerulzlogo.webp" alt="Animerulz"/>
+             </div>
             <div class="follow">
                <div class="txt-for-follow-div">
                   <span class="follow-us-txt">Follow Us</span><br>
